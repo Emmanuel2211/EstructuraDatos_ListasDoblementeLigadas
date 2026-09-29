@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module practica5</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">practica5</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:/home/emmanuel/Documentos/Proyects/python_proyects/EDD_Practica5_ListasDoblementeLigadas/src%20%282%29/practica5.py">/home/emmanuel/Documentos/Proyects/python_proyects/EDD_Practica5_ListasDoblementeLigadas/src (2)/practica5.py</a></td></tr></table>
+    <p><span class="code">Resolución&nbsp;del&nbsp;problema&nbsp;del&nbsp;historial&nbsp;del&nbsp;navegador&nbsp;"El&nbsp;Chido".</span></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="practica5.html#Historial">Historial</a>
+</dt><dt class="heading-text"><a href="practica5.html#Pagina">Pagina</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Historial">class <strong>Historial</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Maneja&nbsp;el&nbsp;historial&nbsp;de&nbsp;navegación&nbsp;utilizando&nbsp;una&nbsp;Lista&nbsp;Doblemente&nbsp;Ligada.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Historial-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Historial-cargar_archivo"><strong>cargar_archivo</strong></a>(self, ruta_archivo: str) -&gt; None</dt><dd><span class="code">Lee&nbsp;el&nbsp;archivo&nbsp;txt&nbsp;donde&nbsp;los&nbsp;registros&nbsp;están&nbsp;ordenados&nbsp;cronológicamente<br>
+desde&nbsp;el&nbsp;más&nbsp;antiguo&nbsp;hasta&nbsp;el&nbsp;más&nbsp;reciente[cite:&nbsp;3].</span></dd></dl>
+
+<dl><dt><a name="Historial-imprimir_historial"><strong>imprimir_historial</strong></a>(self) -&gt; None</dt><dd><span class="code">Muestra&nbsp;el&nbsp;historial&nbsp;completo&nbsp;en&nbsp;pantalla.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Pagina">class <strong>Pagina</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Pagina">Pagina</a>(nombre:&nbsp;str,&nbsp;fecha:&nbsp;str)<br>
+&nbsp;<br>
+Representa&nbsp;una&nbsp;página&nbsp;web&nbsp;individual&nbsp;visitada&nbsp;en&nbsp;el&nbsp;historial.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Pagina-__eq__"><strong>__eq__</strong></a>(self, otro: object) -&gt; bool</dt><dd><span class="code">Sobrescribe&nbsp;la&nbsp;igualdad&nbsp;para&nbsp;que&nbsp;dos&nbsp;objetos&nbsp;<a href="#Pagina">Pagina</a>&nbsp;sean&nbsp;considerados&nbsp;iguales<br>
+si&nbsp;tienen&nbsp;el&nbsp;mismo&nbsp;nombre,&nbsp;permitiendo&nbsp;a&nbsp;la&nbsp;Lista&nbsp;encontrar&nbsp;y&nbsp;eliminar&nbsp;duplicados.</span></dd></dl>
+
+<dl><dt><a name="Pagina-__init__"><strong>__init__</strong></a>(self, nombre: str, fecha: str)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Pagina-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__hash__</strong> = None</dl>
+
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-main"><strong>main</strong></a>() -&gt; None</dt></dl>
+</td></tr></table>
+</body></html>
