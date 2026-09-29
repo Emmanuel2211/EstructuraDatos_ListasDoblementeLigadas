@@ -7,7 +7,9 @@ authors = [
     { name = "Emmanuel", email = "jessepinkman22@ciencias.unam.mx" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipython>=9.17.1",
+]
 
 [project.scripts]
 practica5 = "practica5:main"
